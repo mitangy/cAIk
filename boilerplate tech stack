@@ -1,0 +1,20 @@
+Frontend (Mobile-Friendly Web App)
+Framework: React.js with Next.js (for server-side rendering & better performance)
+UI Library: Tailwind CSS (lightweight & customizable)
+State Management: React Context API or Redux (if you need more complex state management)
+Mobile Optimization: PWA (Progressive Web App) features for an app-like experience
+Framework: FastAPI if you want better async support
+Database & Storage
+Database: PostgreSQL (for structured user & recipe data)
+ORM: SQLAlchemy (if using SQL) or PyMongo (for MongoDB)
+User Authentication: Flask-JWT
+Storage (for images & recipes): AWS S3 or Firebase Storage
+Hosting & Deployment
+Frontend: Vercel (great for Next.js)
+Backend: AWS EC2
+Database Hosting: Supabase (PostgreSQL with authentication)
+CI/CD: GitHub Actions for automated deployment
+Extras
+Caching: Redis (for faster responses & reducing API calls)
+Task Queue (if needed): Celery with Redis (for background processing, like AI recipe generation)
+Logging & Monitoring: Sentry (for frontend & backend error tracking)

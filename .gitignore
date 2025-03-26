@@ -1,0 +1,51 @@
+# Python/Flask/FastAPI
+.pytest_cache/
+*.pytest_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+instance/
+*.sqlite3
+*.log
+
+# Visual Studio Code
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/*.code-workspace
+
+# Node.js/JavaScript/TypeScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+*.env
+
+# Next.js
+.next/
+out/
+
+# Tailwind CSS
+*.css.map
+
+# PostgreSQL
+*.pgsql
+*.pgpass
+*.pg_dump
+*.sql
+*.sql.gz
+
+# General
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
